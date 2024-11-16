@@ -455,6 +455,7 @@ const kaplay = <
                 flush();
                 fb.unbind();
             },
+            get fb() { return fb; }
         };
     }
 
